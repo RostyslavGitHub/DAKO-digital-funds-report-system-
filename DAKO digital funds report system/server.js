@@ -76,5 +76,5 @@ function getCaseNumber(folderName) {
     return parts[parts.length - 1].trim();
 }
 
-const directoryPath = path.join(__dirname, '/all'); // шлях до папки
+const directoryPath = path.join(__dirname, '/all'); // шлях до теки з фондами
 processDirectories(directoryPath);
